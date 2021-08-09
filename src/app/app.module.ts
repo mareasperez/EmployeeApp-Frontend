@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DepartamentComponent } from './components/departament/departament.component';
-import { EmployeeeComponent } from './components/employeee/employeee.component';
+import { EmployeeComponent } from './components/employee/employee.component';
 // httpClientModule import
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -14,7 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     HomeComponent,
     DepartamentComponent,
-    EmployeeeComponent
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
